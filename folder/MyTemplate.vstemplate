@@ -1,0 +1,59 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>מטלת אמצע רעות</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>Web</ProjectType>
+    <ProjectSubType>CSharp</ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>מטלת אמצע רעות</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="ProjectName.webproj" File="ProjectName.webproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="contact.html">contact.html</ProjectItem>
+      <Folder Name="images" TargetFolderName="images">
+        <ProjectItem ReplaceParameters="false" TargetFileName="1.jpg">1.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="background.jpg">background.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="facebook.png">facebook.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="footer22 shelly.jpg">footer22 shelly.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="gmail.png">gmail.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="header22 shelly.jpg">header22 shelly.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="instegram.png">instegram.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="sofi.jpg">sofi.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="שלב7.jpg">vstg0001.jpg</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="index.html">index.html</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="infogra.html">infogra.html</ProjectItem>
+      <Folder Name="jScripts" TargetFolderName="jScripts">
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery-1.12.0.min.js">jquery-1.12.0.min.js</ProjectItem>
+      </Folder>
+      <Folder Name="media" TargetFolderName="media">
+        <ProjectItem ReplaceParameters="false" TargetFileName="Luis Fonsi - Despacito ft. Daddy Yankee (letra).mp3">Luis Fonsi - Despacito ft. Daddy Yankee (letra).mp3</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Luis_Fonsi_-_Despacito_ft_Daddy_Yankee_letra_.ogg">Luis_Fonsi_-_Despacito_ft_Daddy_Yankee_letra_.ogg</ProjectItem>
+      </Folder>
+      <Folder Name="myart images" TargetFolderName="myart images">
+        <ProjectItem ReplaceParameters="false" TargetFileName="C360_2015-07-22-10-33-54-086.jpg">C360_2015-07-22-10-33-54-086.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="C360_2016-08-24-11-12-29-986.jpg">C360_2016-08-24-11-12-29-986.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="IMG-20170323-WA0072.jpg">IMG-20170323-WA0072.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="IMG-20170323-WA0073.jpg">IMG-20170323-WA0073.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="P1070220.JPG">P1070220.JPG</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="myart.html">myart.html</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="school.html">school.html</ProjectItem>
+      <Folder Name="styles" TargetFolderName="styles">
+        <ProjectItem ReplaceParameters="true" TargetFileName="myStyle.css">myStyle.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="reset.css">reset.css</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="svivot.html">svivot.html</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="takshah.html">takshah.html</ProjectItem>
+      <Folder Name="videos" TargetFolderName="videos">
+        <ProjectItem ReplaceParameters="false" TargetFileName="20170405_133522.mp4">20170405_133522.mp4</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
